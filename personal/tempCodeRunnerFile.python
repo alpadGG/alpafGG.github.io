@@ -1,0 +1,15 @@
+
+# pass, continue, dan break
+
+# pass ---> berfungsi sebagai dummy,  artinya tidak akan di eksekusi
+print("pass\n")
+
+angka = 0
+
+while angka < 5:
+    angka +=1
+
+if angka == 3:
+    pass# ini tidak akan di eksekusi
+
+print(angka)
